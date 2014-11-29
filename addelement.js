@@ -1,0 +1,14 @@
+var sampleArray = [0,0,7];
+var last = sampleArray.pop();
+last=last+1;
+sampleArray.push(last);
+var newArray = sampleArray;
+console.log(last);
+//var lastElement = sampleArray[sampleArray.length- 1];
+//var lastElementInc = lastElement + 1;
+//var restofArray = sampleArray.slice(0,-1);
+//var newArray = restofArray.push(lastElementInc);
+//console.log(lastElement);
+//console.log(lastElementInc);
+//console.log(restofArray);
+console.log(newArray);
